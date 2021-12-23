@@ -1,3 +1,0 @@
-[console_scripts]
-BnpInstaller = BnpInstaller.BnpInstaller:main
-
