@@ -17,7 +17,7 @@ setup(
     packages=setuptools.find_packages(),
     entry_points={
         "console_scripts":
-            ['BnpInstaller = BnpInstaller.__main__:main']
+            ['BnpInstaller = BnpInstaller.BnpInstaller:main']
     },
     classifiers=[
         "Development Status :: Alpha",
