@@ -5,11 +5,11 @@ with open("README.md", "r") as readme:
     long_description = readme.read()
 
 setup(
-    name="bnp-installer",
+    name="BnpInstaller",
     version="1.0.0",
-    author="Marcus Smith",
+    author="ArchLeaders",
     author_email="archleadership28@gmail.com",
-    description="A simple Commandline interface to install BNPs using BCML",
+    description="A simple CLI app to install bnp mods.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ArchLeaders/BnpInstaller",
@@ -20,7 +20,6 @@ setup(
             ['BnpInstaller = BnpInstaller.BnpInstaller:main']
     },
     classifiers=[
-        "Development Status :: Alpha",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3 :: Only",
