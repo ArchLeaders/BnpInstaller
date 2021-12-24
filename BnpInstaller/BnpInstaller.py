@@ -6,9 +6,9 @@ from bcml.install import install_mod
 app = typer.Typer()
 
 @app.command()
-def install(bnp: Path):
+def install(bnp: Path, is_update: bool = True, remerge: bool = True):
     print(f'Installing {bnp} . . .')
-    install_mod(mod=Path(bnp), merge_now=True)
+    install_mod(mod=Path(bnp), is_update=is_update, merge_now=remerge)
 
 if __name__ == '__main__':
     app()
