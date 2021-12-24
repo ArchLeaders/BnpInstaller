@@ -1,6 +1,6 @@
 # BnpInstaller
 
-Installs BCML BNP's from CLI with BCML.
+Simple Command Line Iterface application to install mods.
 
 ## Usage
 
